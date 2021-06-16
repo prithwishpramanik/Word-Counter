@@ -1,2 +1,2 @@
-# Word-Counter:watch:
+# Word-Counter:clipboard:
 Word-Counter
