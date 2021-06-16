@@ -4,21 +4,46 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="puzzle.png" type="image/gif"size="16*16">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Word Counter</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WORD COUNTER</a>
+
+
+  </a>
+  </div>
+</nav>
 
 <div class="container">
   <form>
-    <div>
-      <label for="exampleFormControlTextarea1" class="form-label">Example text area</label>
+    <div  class="d-grid gap-2 col-8 mx-auto">
+      <label for="exampleFormControlTextarea1" class="form-label"><h3>TYPE BELOW:-</h3></label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <button id="button">Try it</button>
+    <div class="d-grid gap-2 col-3 mx-auto mt-3">
+      <button type="button" id="button" class="btn btn-warning"><b>Click To Calculate</b></button>
+
+    </div>
+
   </form>
+  <div class="container  mt-5">
+    <div class="row gx-5">
+      <div class="col">
+        <div class="p-3 border bg-light"><h3>No. Of Words :-</h3> <h3 id="word">0</h3></div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light"><h3>No. Of Letters :-</h3> <h3 id="letters">0</h3></div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
