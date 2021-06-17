@@ -1,4 +1,4 @@
-# Word-Counter🔠🆎
+# 🔠Word-Counter🆎
 This is a simple Word-Counter made using HTML5,Css,Bootstrap & JS
 # How To use 
 - Type the desired text  in the given text field
